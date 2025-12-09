@@ -2,7 +2,7 @@
   "name": "project-hephaestus",
   "version": "1.0.0",
   "description": "An AI Agent for generating web UIs",
-  "private": "true",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
