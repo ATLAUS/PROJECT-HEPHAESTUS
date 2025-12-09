@@ -1,0 +1,21 @@
+{
+  "name": "project-hephaestus",
+  "version": "1.0.0",
+  "description": "An AI Agent for generating web UIs",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATLAUS/PROJECT-HEPHAESTUS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ATLAUS/PROJECT-HEPHAESTUS/issues"
+  },
+  "homepage": "https://github.com/ATLAUS/PROJECT-HEPHAESTUS#readme"
+}
