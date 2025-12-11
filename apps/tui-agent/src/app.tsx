@@ -8,7 +8,9 @@ type Props = {
 	name: string | undefined;
 };
 
-export default function App({name = 'Stranger'}: Props) {
+const username: string = process.env['USER'] || process.env['LOGNAME'] || process.env['USERNAME'] || ''
+
+export default function App({name = username}: Props) {
 	const [inputText, setInputText] = useState<string>('')
 	const [prompt, setPrompt] = useState<string>('');
 	const [submitted, setSubmitted] = useState<boolean>(false);
